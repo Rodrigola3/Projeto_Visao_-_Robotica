@@ -2,9 +2,8 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
-from rotacao_img import *
-from filtro_bolas import *
-
+from Projeto_Visao_Robotica.rotacao_img import *
+from Projeto_Visao_Robotica.filtro_bolas import *
 # def posecicao_bolas():
 # Função que Seleciona o Blob da imagem
 def selectBlob(img_in, keypoints):
