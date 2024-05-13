@@ -21,7 +21,7 @@ def selectBlob(img_in, keypoints):
 
 
 # Caminho para a imagem
-caminho_img = "visao_Robotica\Fotos_Mesa_Sinuca\Mesa_Sinuca_Color_4.jpg"
+caminho_img = "Fotos_Mesa_Sinuca\Mesa_Sinuca_Color_4.jpg"
 
 # Carregando a imagem colorida 
 img_in_color = cv2.imread(caminho_img, cv2.IMREAD_COLOR)
